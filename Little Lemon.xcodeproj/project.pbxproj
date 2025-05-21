@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3F56F8242DDDFC7500B36BA1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3F56F8232DDDFC6600B36BA1 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3F56F7E52DDDE55400B36BA1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		3F56F7D22DDDE55000B36BA1 /* Little Lemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little Lemon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F56F7E42DDDE55400B36BA1 /* Little LemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Little LemonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F56F7EE2DDDE55400B36BA1 /* Little LemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Little LemonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F56F8232DDDFC6600B36BA1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		3F56F7C92DDDE55000B36BA1 = {
 			isa = PBXGroup;
 			children = (
+				3F56F8232DDDFC6600B36BA1 /* .gitignore */,
 				3F56F7D42DDDE55000B36BA1 /* Little Lemon */,
 				3F56F7E72DDDE55400B36BA1 /* Little LemonTests */,
 				3F56F7F12DDDE55400B36BA1 /* Little LemonUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F56F8242DDDFC7500B36BA1 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
